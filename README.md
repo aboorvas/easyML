@@ -49,7 +49,7 @@ The features passed to the model can either be numeric or categorical. The model
 
 #### 5.	ML_MODEL.py
 In this module, we have integrated all the other 4 machine learning modules together. It has a class “ML” which requires a mandatory parameter 
-•	data – pandas dataframe with the target variable in the last column
+•	data – pandas dataframe with the target variable in the last column.
 The MODEL () function does everything to you. It identifies the type of problem and runs all the algorithms present for that type of problem with the best hyperparameters. It also prints the result of all the models that ran.
 
 
